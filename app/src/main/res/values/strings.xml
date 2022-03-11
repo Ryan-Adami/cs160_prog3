@@ -5,6 +5,11 @@
     <string name="title_notifications">Notifications</string>
     <string name="Running">Running</string>
     <string name="Start">Start</string>
+    <string name="Pause">Pause</string>
+    <string name="Finish">Finish</string>
+    <string name="zero_distance">0 mi</string>
+    <string name="zero_steps">0</string>
+    <string name="zero_calories">0</string>
     <string name="example_distance">1.03 mi</string>
     <string name="example_steps">2000</string>
     <string name="example_calories">300</string>
