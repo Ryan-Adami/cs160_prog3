@@ -2,7 +2,10 @@ package com.example.cs160_prog3;
 
 import androidx.fragment.app.FragmentActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -32,13 +35,15 @@ public class RunTracker extends FragmentActivity implements OnMapReadyCallback{
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-        LatLng berkeley = new LatLng(37, -122);
-        mMap.moveCamera(CameraUpdateFactory.zoomBy(15));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(berkeley));
+        LatLng berkeley = new LatLng(37.867, -122.26);
+        mMap.moveCamera( CameraUpdateFactory.newLatLngZoom(berkeley , 17) );
 
-        mMap.addMarker(new MarkerOptions()
-                .position(berkeley)
-                .title("Marker in berk"));
     }
+
+    public void startRecording(View view) {
+        Intent intent = new Intent(this, RunProgress.class);
+        startActivity(intent);
+    }
+
 
 }
