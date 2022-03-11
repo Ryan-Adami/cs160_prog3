@@ -44,6 +44,11 @@ public class RunProgress extends FragmentActivity implements OnMapReadyCallback 
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+
+    public void goBackToMenu(View view) {
+        Intent intent = new Intent(this, SelectWorkout.class);
+        startActivity(intent);
+    }
     public void resume(View view) {
         Button button = findViewById(R.id.button);
         if(button.getText().toString().equals("Resume")){

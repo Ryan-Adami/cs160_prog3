@@ -43,4 +43,9 @@ public class SelectWorkout extends AppCompatActivity {
         Intent intent = new Intent(this, RunTracker.class);
         startActivity(intent);
     }
+
+    public void goBackToMain(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
 }

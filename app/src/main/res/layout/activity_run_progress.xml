@@ -77,10 +77,10 @@
         android:layout_height="33dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="16dp"
+        android:onClick="goBackToMenu"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/arrow"
-        />
+        app:srcCompat="@drawable/arrow" />
 
     <TextView
         android:id="@+id/textView2"

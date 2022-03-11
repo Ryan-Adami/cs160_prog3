@@ -45,5 +45,10 @@ public class RunTracker extends FragmentActivity implements OnMapReadyCallback{
         startActivity(intent);
     }
 
+    public void goBackToMenu(View view) {
+        Intent intent = new Intent(this, SelectWorkout.class);
+        startActivity(intent);
+    }
+
 
 }

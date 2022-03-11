@@ -30,6 +30,7 @@
         android:onClick="startRunningActivity"
         android:text="Running"
         android:textAlignment="center"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
@@ -42,6 +43,7 @@
         android:drawableStart="@drawable/bike"
         android:drawableEnd="@drawable/forward"
         android:text="Biking"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button6" />
@@ -54,6 +56,7 @@
         android:drawableStart="@drawable/stairs"
         android:drawableEnd="@drawable/forward"
         android:text="Stair Climbing"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button13" />
@@ -63,9 +66,10 @@
         android:layout_width="334.08dp"
         android:layout_height="71dp"
         android:backgroundTint="#071540 "
-        android:drawableEnd="@drawable/forward"
         android:drawableStart="@drawable/row2"
+        android:drawableEnd="@drawable/forward"
         android:text="Rowing"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button12" />
@@ -78,6 +82,7 @@
         android:drawableStart="@drawable/fitness"
         android:drawableEnd="@drawable/forward"
         android:text="Free Weights"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button10" />
