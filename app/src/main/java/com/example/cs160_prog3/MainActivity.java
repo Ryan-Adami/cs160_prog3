@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sendMessage(View view) {
-        Intent intent = new Intent(this, RunTracker.class);
+        Intent intent = new Intent(this, SelectWorkout.class);
         startActivity(intent);
     }
 

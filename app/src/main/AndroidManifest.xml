@@ -17,6 +17,10 @@
             android:name=".RunProgress"
             android:exported="false" />
 
+        <activity
+            android:name=".SelectWorkout"
+            android:exported="false"/>
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDHk2xitSp0J2hVcquFa2al4PH_1-2yHHo"/>
