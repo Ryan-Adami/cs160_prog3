@@ -11,5 +11,7 @@
     <string name="distance_caption">Distance Travelled</string>
     <string name="step_caption">Steps</string>
     <string name="calories_caption">Calories Burned</string>
+    <string name="zero_distance">0.00 mi</string>
+    <string name="zero_steps">0</string>
 
 </resources>

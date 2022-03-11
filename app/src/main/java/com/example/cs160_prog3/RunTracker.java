@@ -4,6 +4,7 @@ import androidx.fragment.app.FragmentActivity;
 
 import android.os.Bundle;
 
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
@@ -31,10 +32,13 @@ public class RunTracker extends FragmentActivity implements OnMapReadyCallback{
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-        LatLng sydney = new LatLng(-34, 151);
+        LatLng berkeley = new LatLng(37, -122);
+        mMap.moveCamera(CameraUpdateFactory.zoomBy(15));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(berkeley));
+
         mMap.addMarker(new MarkerOptions()
-                .position(sydney)
-                .title("Marker in Sydney"));
+                .position(berkeley)
+                .title("Marker in berk"));
     }
 
 }
