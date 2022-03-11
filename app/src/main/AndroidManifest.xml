@@ -19,7 +19,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="ENTER API KEY HERE" />
+            android:value="AIzaSyDHk2xitSp0J2hVcquFa2al4PH_1-2yHHo"/>
 
         <activity
             android:name=".RunTracker"
