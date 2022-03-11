@@ -28,4 +28,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, RunTracker.class);
         startActivity(intent);
     }
+
+    public void openProfile(View view) {
+        Intent intent = new Intent(this, Profile.class);
+        startActivity(intent);
+    }
 }

@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cs160_prog3">
         <activity
+            android:name=".Profile"
+            android:exported="false" />
+
+        <activity
             android:name=".RunProgress"
             android:exported="false" />
 
