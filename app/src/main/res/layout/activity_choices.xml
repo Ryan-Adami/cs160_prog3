@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1f295b">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Record Workout"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="56dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="back image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="334.08dp"
+        android:layout_height="71dp"
+        android:alpha="100"
+        android:backgroundTint="#071540 "
+        android:drawableStart="@drawable/running"
+        android:drawableEnd="@drawable/Vector"
+        android:text="Running"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="334.08dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#071540 "
+        android:drawableStart="@drawable/bike"
+        android:drawableEnd="@drawable/Vector"
+        android:text="Biking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="334.08dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#071540 "
+        android:drawableStart="@drawable/stairs"
+        android:drawableEnd="@drawable/Vector"
+        android:text="Stair Climbing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button13" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="334.08dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#071540 "
+        android:drawableEnd="@drawable/Vector"
+        android:drawableStart="@drawable/row2"
+        android:text="Rowing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="334.08dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#071540 "
+        android:drawableStart="@drawable/fitness"
+        android:drawableEnd="@drawable/Vector"
+        android:text="Free Weights"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
