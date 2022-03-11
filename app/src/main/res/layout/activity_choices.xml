@@ -18,30 +18,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="56dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="16dp"
-        android:contentDescription="back image"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/arrow" />
-
     <Button
         android:id="@+id/button6"
         android:layout_width="334.08dp"
         android:layout_height="71dp"
+        android:layout_marginTop="47dp"
         android:alpha="100"
         android:backgroundTint="#071540 "
         android:drawableStart="@drawable/running"
         android:drawableEnd="@drawable/forward"
+        android:onClick="startRunningActivity"
         android:text="Running"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="94dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
     <Button
         android:id="@+id/button10"
