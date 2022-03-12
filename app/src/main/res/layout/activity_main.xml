@@ -232,7 +232,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="6dp"
         android:layout_marginTop="14dp"
-        android:text="Weightlifting"
+        android:text="Free Weights"
         android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/imageView8"

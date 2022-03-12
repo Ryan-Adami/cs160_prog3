@@ -6,45 +6,24 @@
     android:layout_height="match_parent"
     android:background="#1f295b">
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="62dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:onClick="goBackToMain"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/arrow" />
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Record Workout"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/button6"
         android:layout_width="334.08dp"
         android:layout_height="71dp"
-        android:layout_marginTop="47dp"
+        android:layout_marginTop="16dp"
         android:alpha="100"
         android:backgroundTint="#071540 "
         android:drawableStart="@drawable/running"
-        android:drawableEnd="@drawable/forward"
+        android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
         android:onClick="startRunningActivity"
         android:text="Running"
         android:textAlignment="center"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+        app:layout_constraintTop_toTopOf="parent"
+        style="s"/>
 
     <Button
         android:id="@+id/button10"
@@ -52,12 +31,13 @@
         android:layout_height="71dp"
         android:backgroundTint="#071540 "
         android:drawableStart="@drawable/bike"
-        android:drawableEnd="@drawable/forward"
+        android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
         android:text="Biking"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        />
 
     <Button
         android:id="@+id/button11"
@@ -65,7 +45,7 @@
         android:layout_height="71dp"
         android:backgroundTint="#071540 "
         android:drawableStart="@drawable/stairs"
-        android:drawableEnd="@drawable/forward"
+        android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
         android:text="Stair Climbing"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -78,7 +58,7 @@
         android:layout_height="71dp"
         android:backgroundTint="#071540 "
         android:drawableStart="@drawable/row2"
-        android:drawableEnd="@drawable/forward"
+        android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
         android:text="Rowing"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -91,7 +71,7 @@
         android:layout_height="71dp"
         android:backgroundTint="#071540 "
         android:drawableStart="@drawable/fitness"
-        android:drawableEnd="@drawable/forward"
+        android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
         android:text="Free Weights"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"

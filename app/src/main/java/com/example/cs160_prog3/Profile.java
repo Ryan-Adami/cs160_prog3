@@ -1,11 +1,13 @@
 package com.example.cs160_prog3;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 
@@ -20,20 +22,27 @@ public class Profile extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
+        setContentView(R.layout.activity_profile);
+
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.setTitle(R.string.title_profile);
+        }
+        BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation_profile);
+        bottomNav.setSelectedItemId(R.id.navigation_profile);
         bottomNav.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
-                if (id == 0)
-                    setContentView(R.layout.activity_main);
-                else
-                    setContentView(R.layout.activity_profile);
+                Log.d("EEEE", "" + id);
+                Log.d("EEEE", "" + R.id.navigation_home);
+                if (id == R.id.navigation_home) {
+                    Intent intent = new Intent(bottomNav.getContext(), MainActivity.class);
+                    startActivity(intent);
+                }
                 return true;
             }
         });
-        binding = ActivityProfileBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
 
     }
     public void goBackToMain(View view) {
