@@ -15,7 +15,7 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_run_progress.xml" value="0.5328125" />
-        <entry key="app/src/main/res/layout/activity_run_tracker.xml" value="0.45227779245424893" />
+        <entry key="app/src/main/res/layout/activity_run_tracker.xml" value="0.25" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.5328125" />
         <entry key="app/src/main/res/menu/bottom_navigation_menu.xml" value="0.5328125" />
       </map>

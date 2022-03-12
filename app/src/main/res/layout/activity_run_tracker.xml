@@ -80,6 +80,7 @@
         android:background="#8D5BE9 "
         android:onClick="startRecording"
         android:text="@string/Start"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
